@@ -429,3 +429,12 @@ nnoremap <c-u> <c-w>x
 "     vifm --server-name "$VIFM_SERVER_NAME" --remote +"cd '$PWD'"
 "
 " let $VIFM_SERVER_NAME = v:servername
+
+
+#### User configs start here
+
+# view images in feh (from Arch Wiki)
+filextype *.jpg,*.jpeg,*.png,*.gif
+       \ {View in feh}
+       \ feh -FZ %d --start-at %d/%c 2>/dev/null
+
