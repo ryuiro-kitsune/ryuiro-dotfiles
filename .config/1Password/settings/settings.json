@@ -1,4 +1,0 @@
-{
-  "ui.routes.lastUsedRoute": "{\"type\":\"ItemDetail\",\"content\":{\"itemListRoute\":{\"unlockedRoute\":{\"collectionUuid\":\"MQP4XBBWUVFQRB43GFVLENGJHQ\"},\"itemListType\":{\"type\":\"Vault\",\"content\":\"18\"},\"category\":null,\"sortBehavior\":null},\"itemId\":\"E4\"}}",
-  "security.authenticatedUnlock.enabled": true
-}
