@@ -1,1 +1,1 @@
-### This is the repo for Ryuiro Kitsune's dot files
+### This is the repo for Ryuiro Kitsune's dotfiles
