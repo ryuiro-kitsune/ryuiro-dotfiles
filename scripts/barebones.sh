@@ -21,6 +21,7 @@ sudo pacman -S xsel curl xclip
 sudo pacman -S transmission
 sudo pacman -S irssi
 
+
 # yay area
 
 cd /opt
@@ -35,3 +36,4 @@ sudo chown -R saph:users /home/saph/
 yay -S synology-drive
 yay -S 1password
 yay -S wine-stable
+yay -S ttc-iosevka
