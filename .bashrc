@@ -64,3 +64,4 @@ alias pbcopy='xsel -b -i'
  alias pbpaste='xsel -b -o'
 alias pbcopy='xsel -b -i'
  alias pbpaste='xsel -b -o'
+neofetch
