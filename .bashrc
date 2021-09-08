@@ -58,7 +58,7 @@ alias grep='grep --color=auto'
 PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"
 
 # Set prompt
-PS1="${Yellow}\u@\h${NC}: ${Blue}\w${NC} \\$ "
+PS1="[\u@\h \W]\$"
 
 alias pbcopy='xsel -b -i'
  alias pbpaste='xsel -b -o'
