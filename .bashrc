@@ -60,8 +60,6 @@ PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"
 # Set prompt
 PS1="[\u@\h \W]\$"
 
-alias pbcopy='xsel -b -i'
- alias pbpaste='xsel -b -o'
-alias pbcopy='xsel -b -i'
- alias pbpaste='xsel -b -o'
+conky --config=~/.conky.conf
 neofetch
+

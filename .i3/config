@@ -194,3 +194,4 @@ bar {
 }
 
 exec --no-startup-id feh --bg-scale "~/ryuiro-dotfiles/wallpaper/city-at-night.png" 
+# exec --no-startup-id conky -c "˜/ryuiro-dotfiles/.conky.conf
