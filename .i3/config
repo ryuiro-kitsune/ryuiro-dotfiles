@@ -35,6 +35,12 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# Auto Exec stuff
+exec_always --no-startup-id feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png 
+exec --no-startup-id conky -c ~/ryuiro-dotfiles/.conky.conf
+exec --no-startup-id synology-drive start
+
+
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
 set $up l
@@ -192,7 +198,3 @@ bindsym Mod1+r mode "resize"
 bar {
         status_command i3status
 }
-
-exec --no-startup-id feh --bg-scale "~/ryuiro-dotfiles/wallpaper/city-at-night.png" 
-exec --no-startup-id conky -c "˜/ryuiro-dotfiles/.conky.conf
-exec --no-startup-id synology-drive start

@@ -62,4 +62,5 @@ PS1="[\u@\h \W]\$"
 
 conky --config=~/.conky.conf
 neofetch
+feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night
 
