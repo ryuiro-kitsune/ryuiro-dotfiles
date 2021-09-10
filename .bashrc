@@ -60,7 +60,7 @@ PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"
 # Set prompt
 PS1="[\u@\h \W]\$"
 
-conky --config=~/.conky.conf
+#conky --config=~/.conky.conf
 neofetch
-feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night
+#feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
 
