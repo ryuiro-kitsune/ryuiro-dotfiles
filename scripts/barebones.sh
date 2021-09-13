@@ -2,7 +2,7 @@
 
 # the basic shit
 sudo pacman -Syu base-devel
-sudo pacman -S i3
+sudo pacman -S i3-wm
 sudo pacman -S i3status
 sudo pacman -S i3lock
 sudo pacman -S dmenu
@@ -35,5 +35,4 @@ sudo chown -R saph:users /home/saph/
 
 yay -S synology-drive
 yay -S 1password
-yay -S wine-stable
 yay -S ttc-iosevka
