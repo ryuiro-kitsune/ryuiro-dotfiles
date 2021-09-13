@@ -1,15 +1,9 @@
 #/bin/bash
 
-rm .xinit
-rm .bashrc
-rm -r .config
-rm .Xreasources
-rm -r .config/ranger
-rm .xinitrc
-ln ryuiro-dotfiles/.xintrc ./
-ln ryuiro-dotfiles/.bashrc ./
-ln -s ryuiro-dotfiles/i3 .config/
-ln ryuiro-dotfiles/.Xreasources ./
-ln -s ryuiro-dotfiles/ranger .config/
-ln .xinitrc ./
+ln -fryuiro-dotfiles/.xintrc ./
+ln -f ryuiro-dotfiles/.bashrc ./
+ln -sf ryuiro-dotfiles/i3 .config/
+ln -f ryuiro-dotfiles/.Xreasources ./
+ln -sf ryuiro-dotfiles/ranger .config/
+ln -f .xinitrc ./
 # ln ryuiro-dotfiles/.conky.conf ./
