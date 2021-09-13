@@ -10,4 +10,4 @@ sudo pacman -S gimp
 sudo pacman -S zathura
 sudo pacman -S neomutt
 sudo pacman -S lynx
-python pip install epy-reader
+yay -S epy-git
