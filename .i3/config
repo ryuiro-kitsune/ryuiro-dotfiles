@@ -37,7 +37,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 
 # Auto Exec stuff
 exec_always --no-startup-id feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png 
-exec --no-startup-id conky -c ~/ryuiro-dotfiles/.conky.conf
+#exec --no-startup-id conky -c ~/ryuiro-dotfiles/.conky.conf
 exec --no-startup-id synology-drive start
 
 
