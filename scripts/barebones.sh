@@ -16,6 +16,7 @@ sudo pacman -S python3 python-pip
 sudo pacman -S lua5.2
 sudo pacman -S scrot
 sudo pacman -S ranger
+sudo pacman -S libcaca
 sudo pacman -S github-cli
 sudo pacman -S xsel curl xclip
 sudo pacman -S transmission
