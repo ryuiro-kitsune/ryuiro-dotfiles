@@ -7,7 +7,7 @@ ln -f ~/ryuiro-dotfiles/.i3 ~/.config/
 ln -f ~/ryuiro-dotfiles/.Xreasources ~/
 mkdir ~/.config/ranger
 ln -f ~/.xinitrc ~/
-ln -f ~/ryuiro-dotfiles/range/r* ~/.config/ranger/
+ln -f ~/ryuiro-dotfiles/range/* ~/.config/ranger/
 # ln ryuiro-dotfiles/.conky.conf ~/
 
 # Vim section
@@ -16,4 +16,7 @@ mkdir ~/.vim
 mkdir ~/.vim/syntax
 cp ~/ryuiro-dotfiles/vim/syntax/* ~/.vim/syntax
 mkdir ~/.vim/plugins
-ln -f ~/ryuiro-dotfiles/vim/.vimrc
+ln -f ~/ryuiro-dotfiles/.vimrc ~/
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
