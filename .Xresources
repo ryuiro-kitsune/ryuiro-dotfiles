@@ -33,6 +33,11 @@ URxvt.scrollBar_right: false
 *.color5: #696ebf
 *.color13: #8086e8
 
+! Restore Ctrl+Shift+(c|v)
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.iso14755: false
+URxvt.iso14755_52: false
 ! cyan
 *.color6: #289c93
 *.color14: #33c5ba
