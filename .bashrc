@@ -58,9 +58,9 @@ alias grep='grep --color=auto'
 PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"
 
 # Set prompt
-PS1="[\u@\h \W]\$"
+PS1="\u@\h \W \$ "
 
 #conky --config=~/.conky.conf
 neofetch
 feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
-
+/usr/bin/setxkbmap -option "caps:swapescape"
