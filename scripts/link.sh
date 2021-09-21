@@ -7,7 +7,7 @@ ln -f ~/ryuiro-dotfiles/.i3 ~/.config/
 ln -f ~/ryuiro-dotfiles/.Xreasources ~/
 mkdir ~/.config/ranger
 ln -f ~/.xinitrc ~/
-ln -f ~/ryuiro-dotfiles/range/* ~/.config/ranger/
+ln -f ~/ryuiro-dotfiles/ranger/* ~/.config/ranger/
 # ln ryuiro-dotfiles/.conky.conf ~/
 
 # Vim section
