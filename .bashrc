@@ -64,3 +64,4 @@ PS1="\u@\h \W \$ "
 neofetch
 feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
 /usr/bin/setxkbmap -option "caps:swapescape"
+alias fehz="feh --auto-zoom --scale down --randomize "
