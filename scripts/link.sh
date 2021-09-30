@@ -8,6 +8,7 @@ ln -f ~/ryuiro-dotfiles/.Xreasources ~/
 mkdir ~/.config/ranger
 ln -f ~/.xinitrc ~/
 ln -f ~/ryuiro-dotfiles/ranger/* ~/.config/ranger/
+ln -f ~/ryuiro-dotfiles/i3/config ~/.config/i3/
 # ln ryuiro-dotfiles/.conky.conf ~/
 
 # Vim section
@@ -24,3 +25,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 
 
+ln ryuiro-dotfiles/vim/filetype.vim .vim/
