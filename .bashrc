@@ -65,3 +65,4 @@ neofetch
 feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
 /usr/bin/setxkbmap -option "caps:swapescape"
 alias fehz="feh --auto-zoom --scale down --randomize "
+alias mutt='cd ~/.mutt/attachments && mutt'
