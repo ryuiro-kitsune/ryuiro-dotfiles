@@ -23,6 +23,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 
 
-
+# todo: add vim stuff, add mutt stuff, add drive, cjk
 
 ln ryuiro-dotfiles/vim/filetype.vim .vim/

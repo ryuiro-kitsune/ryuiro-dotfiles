@@ -38,6 +38,4 @@ yay -S synology-drive
 yay -S 1password
 yay -S ttc-iosevka
 
-# Vundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
+yay -S drive-git
