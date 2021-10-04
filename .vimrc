@@ -1,5 +1,5 @@
 syntax on
-set tabstop=4
+set tabstop=8
 let mapleader = '\'
 
 
