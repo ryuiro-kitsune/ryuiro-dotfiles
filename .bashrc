@@ -62,7 +62,7 @@ PS1="\u@\h \W \$ "
 
 #conky --config=~/.conky.conf
 neofetch
-feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
-/usr/bin/setxkbmap -option "caps:swapescape"
+#feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
+#sudo setxkbmap -option "caps:swapescape" -layout jp
 alias fehz="feh --auto-zoom --scale down --randomize "
 alias mutt='cd ~/.mutt/attachments && neomutt'
