@@ -66,3 +66,10 @@ neofetch
 #sudo setxkbmap -option "caps:swapescape" -layout jp
 alias fehz="feh --auto-zoom --scale down --randomize "
 alias mutt='cd ~/.mutt/attachments && neomutt'
+
+
+mount="bash ~/.scripts/mount-fs.sh"
+alias mnt="$mount"
+unmount="bash ~/.scripts/unmount-fs.sh"
+alias umnt="$unmount"
+alias sc="sc-im

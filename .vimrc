@@ -36,7 +36,7 @@ Plug 'reedes/vim-wordy'
 
 call plug#end()
 
-set spell
+
 set spelllang=en_us,cjk,fr
 
 filetype indent off
