@@ -72,4 +72,4 @@ mount="bash ~/.scripts/mount-fs.sh"
 alias mnt="$mount"
 unmount="bash ~/.scripts/unmount-fs.sh"
 alias umnt="$unmount"
-alias sc="sc-im
+alias sc="sc-im"
