@@ -39,3 +39,5 @@ yay -S 1password
 yay -S ttc-iosevka
 
 yay -S drive-git
+yay -S sc-im 
+ yay -S youtube-dl
