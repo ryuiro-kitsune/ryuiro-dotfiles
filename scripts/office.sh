@@ -1,7 +1,7 @@
 #/bin/bash
 
 sudo pacman -Syu lynx
-yay -S visidata-git
+yay -Syu sc-im
 sudo pacman -S kdenlive
 sudo pacman -S transmission
 sudo pacman -S irssi
@@ -13,3 +13,5 @@ sudo pacman -S neomutt
 sudo pacman -S lynx
 yay -S epy-git
 sudo pacman -S inkscape
+yay -S gtypist-single-space
+
