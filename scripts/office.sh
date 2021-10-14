@@ -15,3 +15,5 @@ yay -S epy-git
 sudo pacman -S inkscape
 yay -S gtypist-single-space
 
+yay -S pomo-git
+sudo pacman -S zathura-ps
