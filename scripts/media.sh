@@ -6,3 +6,4 @@ sudo pacman -S YouTube-dl
 sudo pacman -S graphicsmagick imagemagick
 sudo pacman -S graphviz
 pip install gallery-dl
+yay -S timg-git
