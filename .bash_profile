@@ -1,9 +1,2 @@
-#
-# ~/.bash_profile
-#
-
-if [ -n "$BASH_VERSION" ]; then
-	if [ -if "$HOME/.bashrc" ]; then
-		"$HOME/.bashrc"
-	fi
-fi
+feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
+setxkbmap -option "caps:swapescape" -layout jp

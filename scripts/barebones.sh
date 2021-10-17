@@ -41,3 +41,5 @@ yay -S ttc-iosevka
 yay -S drive-git
 yay -S sc-im 
  yay -S youtube-dl
+yay -S fcitx-mozc
+yay -S fcitx-configtool

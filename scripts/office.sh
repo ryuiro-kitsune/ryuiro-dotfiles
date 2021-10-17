@@ -17,3 +17,4 @@ yay -S gtypist-single-space
 
 yay -S pomo-git
 sudo pacman -S zathura-ps
+pacman -S offlineimap
