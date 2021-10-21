@@ -59,6 +59,7 @@ bindsym $mod+j focus left
 bindsym $mod+k focus down
 bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
+focus_follows_mouse no
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -180,7 +181,22 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+
+# Autostart
 exec_always feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
 exec synology-drive
 exec fcitx
 exec twmnd
+###START AUTOSTART SECTION###
+exec --no-startup-id i3-msg 'workspace 1; exec --no-startup-id urxvt'
+
+exec --no-startup-id i3-msg 'workspace 2; exec --no-startup-id brave'
+
+exec --no-startup-id i3-msg 'workspace 3; exec --no-startup-id urxvt -e cd Documents/Books'
+
+exec --no-startup-id i3-msg 'workspace 4; exec urxvt -e irssi'
+exec --no-startup-id i3-msg 'workspace 4; exec discord'
+
+exec --no-startup-id i3-msg 'workspace 10; exec --no-startup-id urxvt -e cd Music'
+###END SECTION###
