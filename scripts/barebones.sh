@@ -43,3 +43,4 @@ yay -S sc-im
  yay -S youtube-dl
 yay -S fcitx-mozc
 yay -S fcitx-configtool
+yay -S qutebrowser-not-only-latin-git
