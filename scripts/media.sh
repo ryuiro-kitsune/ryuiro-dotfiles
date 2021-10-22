@@ -2,7 +2,7 @@
 
 sudo pacman -S mpv
 mkdir -p $HOME/.config/mpv/scripts
-git clone https://github.com/Ajatt-Tools/mpvacious.git
+git clone https://github.com/Ajatt-Tools/mpvacious.git $HOME/.config/mpv/scripts
 sudo pacman -S transmission-cli
 sudo pacman -S YouTube-dl
 sudo pacman -S graphicsmagick imagemagick
