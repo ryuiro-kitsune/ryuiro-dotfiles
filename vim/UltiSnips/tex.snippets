@@ -50,3 +50,16 @@ snippet book "Book Format"
 \setbinding{2cm}
 
 endsnippet
+
+snippet mla "MLA for tex" bA
+\documentclass[12pt,letterpaper]{article}
+\usepackage{ifpdf}
+\usepackage{mla}
+
+\begin{document}
+\begin{mla}{${1:First Name}}{${2:Lastname}}{${3:Prof Name}}{${4:Class Name}}{\today}{${5:Title}
+$0
+
+\end{mla}
+\end{document}
+endsnippet

@@ -62,9 +62,11 @@ PS1="\u@\h \W \$ "
 
 #conky --config=~/.conky.conf
 neofetch
+LANG="ja_JP.utf8"
 #feh --bg-scale ~/ryuiro-dotfiles/wallpaper/city-at-night.png
 #sudo setxkbmap -option "caps:swapescape" -layout jp
-alias fehz="feh --auto-zoom --scale down --randomize "
+alias fehz="feh --auto-zoom --scale-down --randomize "
+alias feh="feh --auto-zoom --scale-down "
 alias mutt='cd ~/.mutt/attachments && neomutt'
 
 
@@ -74,3 +76,6 @@ unmount="bash ~/.scripts/unmount-fs.sh"
 alias umnt="$unmount"
 alias sc="sc-im"
 alias li="xbacklight -set "
+
+# Mpv as image viewer
+alias img="mpv --keep-open=always ./"
