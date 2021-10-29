@@ -44,3 +44,5 @@ yay -S sc-im
 yay -S fcitx-mozc
 yay -S fcitx-configtool
 yay -S qutebrowser-not-only-latin-git
+sudo pacman -S lib32-alsa-plugins lib32-libpulse lib32-openal
+sudo pacman -S pulsemixer
