@@ -36,7 +36,7 @@ let g:vimtex_quickfix_mode=0
 
 " Vimwiki
 Plug 'vimwiki/vimwiki'
-
+Plug 'mattn/calendar-vim'
 
 call plug#end()
 
