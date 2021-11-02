@@ -1,6 +1,10 @@
+if has('python3')
+endif
 syntax on
 set tabstop=8
-let mapleader = '\'
+let mapleader='\'
+" Aggregate all vim swap files to a one place
+set directory^=$HOME/.vim/swapfiles//
 
 
 call plug#begin()
